@@ -1,0 +1,218 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 22%;
+    text-align: center;
+    padding: 1%;
+}
+
+nav {
+    width: 72%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    background-color: #383838;
+    color: white;
+
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#mySkills {
+    margin: 2%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    background-color: #242526;
+    border-radius: 5%;
+    padding: 2%;
+}
+
+.skillCard h3 {
+    text-align: center;
+}
+
+
+#myWork-Grid {
+    justify-content: center;
+    width: 95%;
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: content 1ft 1ft 1ft;
+    row-gap: 25px;
+    grid-template-areas:
+        "head head"
+        "item1 project1"
+        "item2 project2"
+        "item3 project3"
+    ;
+
+}
+
+#grid {
+    grid-area: head;
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.projec1 {
+    grid-area: project2;
+}
+
+.projec2 {
+    grid-area: project2;
+}
+
+.projec3 {
+    grid-area: projec3;
+}
+
+.project--details h2 {
+    text-align: center;
+}
+
+
+.project--details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* width: 100%; */
+    /* padding: 10px; */
+}
+
+.project--details button {
+    width: 208.84px;
+    height: 56px;
+    margin-left: 25%;
+}
+
+
+.project--details,
+.project-details {
+    background-color: #242526;
+    padding: 2%;
+}
+
+footer {
+    background-color: black;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+
+li {
+    margin: 2%;
+    /* outline: 1px solid red; */
+}
+
+.navigation {
+    /* outline: 1px solid red;*/
+    background-color: #3ABBF2;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #383838;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3C61BF;
+    color: white;
+    width: 325px;
+    height: 61px;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skillCard {
+        width: 90%;
+        margin: 2%;
+        padding: 3%;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #myWork-Grid {
+        justify-content: center;
+        width: 95%;
+        display: grid;
+        row-gap: 0;
+        grid-template-columns: 100%;
+        grid-template-rows: content 1ft 1ft 1ft 1ft 1ft 1ft;
+        grid-template-areas:
+            "head"
+            "item1"
+            "project1"
+            "item2"
+            "project2"
+            "item3"
+            "project3"
+        ;
+
+    }
+
+}

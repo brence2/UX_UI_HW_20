@@ -7,17 +7,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Emina Brence | Prtfolio</title>
+    <link rel="icon" href="images/favicon copy.jpg" type="image/jpg">
 </head>
 
 <body>
+    <header class="navigation">
+        <div class="inline-block logo">
+            <img src="images/web-logo-black_resized.png" alt="">
+        </div>
+        <nav class="inline-block">
+            <ul>
+                <li class="inline-block">About</li>
+                <li class="inline-block">Skills</li>
+                <li class="inline-block">Work</li>
+                <li class="inline-block">Contact</li>
+            </ul>
+        </nav>
+    </header>
 
+    <section class="heroImg">
+        <div class="content">
+            <img src="images/HeroSM.png" alt="Hero Image">
+            <p>Hello World!!! </br>
 
+                I'm </br>
 
+                Emina Brence,
+                a UX/UI Designer and Front-end Developer with a background in retail and agriculture.</br>
+                I am located in Norcross, Georgia.</p>
+            <button>Download Resume</button>
+        </div>
+    </section>
 
+    <!--  My Skills section coded using CSS flex -->
 
+    <section id="mySkills">
+        <h1>My Skills</h1><br>
+        <div class="flexContainer">
+            <div class="skillCard">
+                <img src="images/icons8-edit-account-50.png" alt="" style="width: 100px; background-color: white; align-self: center; border-radius: 25% 10%;">
+                <h3>USER RESEARCH</h3>
+                <p>Used in projects to capture user needs, pains, and behaviors through different observation and
+                    feedback collection methods. Problem-solving, curiosity, attention to detail, and time management
+                    were some of the skills developed and used combined with Miro and Figma tools.</p>
+            </div>
+            <div class="skillCard">
+                <img src="images/icons8-prototyping-65.png" alt="" style="width: 100px; align-self: center; border-radius: 25% 10%;">
+                <h3>PROTOTYPING</h3>
+                <p>Used in projects to evaluate and test design and its functionality in order to be sure it does what
+                    it is supposed to do. I was actively seeking out failures in order to improve my prototyping skills
+                    using Figma as a tool.</p>
+            </div>
+            <div class="skillCard">
+                <img src="images/icons8-product-architecture-32.png" alt="" style="width: 100px; background-color: white; align-self: center; border-radius: 25% 10%;">
+                <h3>INFORMATION ARCHITECTURE</h3>
+                <p>Used in projects to understand and describes the hierarchy, navigation, features, and interactions.
+                    Information organization, research and analytical skills used with FigJam and Excel sheets tools.
+                </p>
+            </div>
 
+        </div>
+    </section>
+
+    <!--  My Work section coded using CSS grids -->
+
+    <section id="myWork-Grid">
+        <h1 id="grid">My Work</h1>
+        <div class="project-details item1">
+            <div class="project-card">
+                <img src="images/NWSP.png" alt="NWS ebsite redesign" style="width:550px; border-radius: 1%;">
+            </div>
+        </div>
+        <div class="project--details project1">
+            <h2>NWS Government Agency Redesign</h2>
+            <p><i>UI Design Case Study | September 2022</i><br><br>
+                The goal of this project was to redesign the NWS website with a focus on the information architecture
+                improvements as well as the mobile channel experience design.</p>
+            <button>SEE PROJECT</button>
+        </div>
+        <div class="project-details item2">
+            <div class="project-card">
+                <img src="images/DDP.png" alt="Duke and Duchess app" style="width:550px;">
+            </div>
+        </div>
+        <div class="project--details project2">
+            <h2>Party Planning App Duke and Duchess</h2>
+            <p><i> UX Design Case Study | August 2022</i><br><br>
+                The aim of this project was research, prototype, test, and validate an idea with a team of three
+                people for a brand-new mobile application. Collaborating on ideas and working in team provided
+                me foundational activities for growing my UX and UI skills.</p>
+            <button>SEE PROJECT</button>
+        </div>
+
+        <div class="project-details item3">
+            <div class="project-card">
+                <img src="images/TLP.png" alt="Travel Lovers app" style="width:550px;">
+            </div>
+        </div>
+        <div class="project--details project3">
+            <h2>Mobile App Travel Lovers</h2>
+            <p> <i>UX Design Case Study | July 2022</i><br><br>
+                The aim of this project was to build a modern-day mobile app for a new travel startup that helps
+                people plan their next trip, post-Pandemic as well as the mobile channel experience design.</p>
+            <button>SEE PROJECT</button>
+        </div>
+        <h4>View All Projects</h4>
+    </section>
+
+    <footer>
+        <ul>
+            <li class="inline-block">About</li>
+            <li class="inline-block">Skills</li>
+            <li class="inline-block">Work</li>
+            <li class="inline-block">Contact</li>
+        </ul>
+    </footer>
 </body>
 
 
